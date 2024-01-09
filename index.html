@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Добавление нового продукта</h2>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+        <label>
+            <p>Название продукта:</p>
+            <input id="name" type="text" name="name" placeholder="Велосипед">
+        </label>
+        
+        <label>
+            <p>Цена:</p>
+            <input type="number" min="0" name="price" placeholder="10000">
+        </label>
+       
+        <label>
+            <p>Количество:</p>
+            <input type="number" min="0" max="10" name="count" placeholder="10">
+        </label>
+        <label>
+            <p>Категория:</p>
+            <select name="category" size="0">
+                <option value="sport"></option>
+                <option value="house"></option>
+                <option value="home"></option>
+                <option value="hobby"></option>
+                <option value="gift"></option>
+            </select>
+        </label>
+
+        <label>
+            <p>Описание:</p>
+            <textarea name="description" placeholder="расскажине о вашем опыте"></textarea>
+        </label>
+        
+        <button>Отправить</button>
+    </form>
+    
+</body>
+</html>
+
+<!-- LOGIN -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Аутентификация</h1>
+    <form>
+        <label>
+            <p>Login:</p>
+            <input type="text" name="login" placeholder="login@mail.com">
+        </label>
+        
+        <label>
+            <p>Password:</p>
+            <input type="password" name="price" placeholder="password">
+        </label>
+            
+        <button>Войти</button>
+    </form>
+    
+</body>
+</html>
+
+<!-- новая форма get запрос -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Get запрос</h1>
+    <form>
+        <label>
+            <p>Login:</p>
+            <input type="text" name="login" placeholder="login@mail.com">
+        </label>
+        <label>
+            <p>Password:</p>
+            <input type="password" name="price" placeholder="password">
+        </label>
+        <button>Войти</button>
+    </form>
+
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+    <input type="text" name="title" placeholder="title">
+    <input type="text" name="body" placeholder="body">
+    <input type="number" name="userId" placeholder="user ID">
+    <button>Отправить</button>
+    </form>
+    
+</body>
+</html>
