@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form action="https://jsonplaceholder.typicode.com/posts" method="post">
+        <label>
+            <p>Имя</p>
+            <input type="text" name="name" placeholder="введите ваше Имя" required>
+        </label>
+        <label>
+            <p>Фамилия</p>
+            <input type="text" name="lastName" placeholder="введите вашу фамилию">
+        </label>
+        <label>
+            <p>Email</p>
+            <input type="email" name="email" placeholder="example@email.com" required>
+        </label>
+        <label>
+            <p>Пароль</p>
+            <input type="password" minlength="5" name="password" placeholder="введите пароль" required>
+        </label>
+        <label>
+            <p>Пол</p>
+            <select name="sex">
+                <option value="Мужской"></option>
+                <option value="Женский"></option>
+                <option value="Другой"></option>
+            </select>
+        </label>
+        <label>
+            <p>Дата рождения</p>
+            <input type="date" min="2006-01-10" name="date"  required>
+        </label>
+        <label>
+            <p>Согласие с условиями пользования</p> 
+            <input type="checkbox" required>
+        </label>
+        <label>
+            <button>Согласиться и зарегистрироваться</button>
+        </label>
+
+        
+
+    </form>
+
+</body>
+</html>
